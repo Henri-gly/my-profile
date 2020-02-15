@@ -1,0 +1,105 @@
+/*font and colors*/
+
+body{
+	background-color:rgb(229, 246, 252); 
+	color: rgb(0, 0, 0);
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 22px ;
+}
+
+
+h1, h2{
+	font-family: 'El Messiri', sans-serif;
+	font-size: 35px;
+	font-weight: 700;
+	color: rgb(243, 119, 31);
+	}
+
+h1{
+	font-size: 45px;
+	letter-spacing: 2px;
+}
+
+a{
+	text-decoration: underline;
+	color: white ;
+}
+a:hover {
+	color: #B52697 ;
+}
+
+
+
+
+
+/* Custom design*/  
+
+.container {
+	width: 700px ;
+	margin: 10px auto ;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+   	width: 300px;
+  }
+}
+
+
+.box-blue {
+	background-color: rgb(155, 201, 219);
+	padding : 20px;
+	box-shadow: 14px 10px 10px 2px rgba(0,0,0,0.1);
+	border-radius: 6px; 
+	margin: 11px;
+	text-align: center; 
+}
+
+.img-circle {
+	border-radius: 50%
+}
+
+.btn-violet {
+	background-color: #B52697;
+	padding: 15px;
+	border-radius: 5px;	
+}
+.btn-violet:hover {
+	background-color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 13px ;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 20px;
+}
+
+.list-inline i{
+	font-size: 50px;
+}
+
+
+
+
+#introduction p{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+
